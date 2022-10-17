@@ -130,6 +130,8 @@ def sample_case():
         st.dataframe(tables)
 
     # Sample questions
+
+    st.markdown("### Sample questions:")
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["Q1", "Q2", "Q3", "Q4", "Q5"])
 
     with tab1:
