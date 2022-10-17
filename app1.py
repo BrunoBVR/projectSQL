@@ -113,6 +113,7 @@ def run_query():
 def sample_case():
     st.markdown("# Sample Case: Online Media Subscription")
     st.markdown("## ERD for sample case")
+    st.markdown("##### Details on data [here](https://github.com/BrunoBVR/ICT-128-A2)")
     st.image(sample_erd, caption="Online Media Subscription")
 
     ## Connecting to example db.
